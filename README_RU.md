@@ -803,7 +803,7 @@ levels: {
 ```
 В общем файле будут собраны оба CSS:
 ```css
-/* app.css */
+/* app.scss */
 
 .button {
   background-color: #cf2318;

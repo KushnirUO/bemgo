@@ -13,7 +13,7 @@ module.exports = {
 	use: {
 		templates: '.html',
 		scripts: '.js',
-		styles: '.css',
+		styles: '.scss',
 	},
 
 	build: {

@@ -803,7 +803,7 @@ Suppose we have a **button** block at the common and develop level:
 ```
 In the main bundle file will be both CSS rules:
 ```css
-/* app.css */
+/* app.scss */
 
 .button {
   background-color: #cf2318;
