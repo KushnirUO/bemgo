@@ -9,12 +9,12 @@
 	line-height: 54px;
 	color: #FFFFFF;
 }
-.footerNewsLetter h2{
+.footer-subs h2{
 	font-weight: 700;
 	font-size: 54px;
 	line-height: 54px;
 }
-.footerNewsLetter__wrapper{
+.footer-subs__wrapper{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -22,11 +22,7 @@
 	gap: 8px;
 	padding: 32px 0 50px;
 }
-.footerNewsLetterInputButt{
-	display: flex;
-	align-items: center;
-}
-.footerNewsLetterEmail{
+.footer-subs-wrapper input{
 	width: 847px;
 	height: 82px;
 	font-weight: 300;
@@ -36,10 +32,10 @@
 	background: black;
 	border: none;
 }
-.footerNewsLetter__wrapper input::placeholder {
+.footer-subs-wrapper input::placeholder {
 	color: #717783;
 }
-.footerNewsLetterButton{
+.footer-subs-wrapper button{
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
@@ -55,27 +51,27 @@
 	color: #FFFFFF;
 	justify-content: center;
 }
-.footerNewsLetter__line{
+.footer-subs__line{
 	border: 1px dashed #717783;
 }
 
-.footerMenu__logo{
+.footer-menu__logo{
 	display: flex;
 	gap: 59px;
 }
-.footerLogoText{
+.footer-logo-text p{
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 21px;
 	color: #FFFFFF;
 }
-.footerMenu__wrapper{
+.footer-menu__wrapper{
 	display: flex;
 	align-items: center;
 	flex-direction: row;
 	gap: 115px;
 }
-.footerMenuItem__title h4{
+.footer-menu-items__title h4{
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 16px;
@@ -83,13 +79,13 @@
 	text-transform: uppercase;
 	color: #717783;
 }
-.footerMenuItem__text{
+.footer-menu-items__text{
 	display: flex;
 	flex-direction: column;
 	gap: 16px;
 	color: #CCCFD5;
 }
-.footerMenuItem__text a{
+.footer-menu-items__text a{
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 32px;

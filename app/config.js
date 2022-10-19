@@ -17,17 +17,12 @@ module.exports = {
 	},
 
 	build: {
-		imagemin: [ 'png', 'jpg' ],
-		sourcemaps: [ 'js', 'css' ],
+		imagemin: [],
+		sourcemaps: [],
 		autoprefixer: [ 'last 3 versions', 'ie 10', 'ie 11' ],
 	},
 
-	autoCreate: {
-		onlyOnWatch: true,
-		files: [ '.css' ],
-		levels: [ 'develop' ],
-		ignoreNodes: [ 'symbol', /_no_js/i ],
-	},
+	autoCreate: {},
 
 	dist: {
 		styles: 'styles',
